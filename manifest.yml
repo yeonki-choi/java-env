@@ -1,0 +1,6 @@
+applications: 
+- name: java-env
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+  memory: 512M
+  path: target/java-env-1.0.war
+  stack: cflinuxfs2
