@@ -12,4 +12,4 @@ That will create the *java-env-1.0.war* file within the 'target' directory.
 
 ## Deploying to HPE Helion Stackato
 
-	stackato push -n
+	cf push
