@@ -22,7 +22,8 @@ public class JavaEnvServlet extends HttpServlet {
 
 		StringBuilder sb = new StringBuilder();
                 Map<String, String> env = System.getenv();
-                for (String key : env.keySet()) et
+                for (String key : env.keySet())
+		{
 
                         sb.append(key + ": " + env.get(key)  + "\n");
                 }
