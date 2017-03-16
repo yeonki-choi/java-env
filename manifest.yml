@@ -1,5 +1,5 @@
 applications: 
-- name: java-env
+- name: java-env-test2
   buildpack: https://github.com/cloudfoundry/java-buildpack
   memory: 512M
   path: target/java-env-1.0.war
